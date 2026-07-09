@@ -403,8 +403,6 @@ This plugin creates a “most read articles” section in the journal’s sideba
 
 This is a 3rd party plugin and the file will need to be [downloaded from GitHub](https://github.com/ajnyga/mostRead).
 
-*This plugin is compatible with OJS version 3.1.2 or higher. It is currently being adapted for OJS 3.2.*
-
 Once you’ve downloaded the file from GitHub, upload it to your Journal and enable it. This will create a “Most Read” block that you can add to the sidebar of your journal.
 
 To add the Most Read block to your sidebar:
