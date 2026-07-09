@@ -293,45 +293,6 @@ The Custom Header plugin can be used to add custom JavaScript to a header or blo
 
 The plugin can be installed from the Plugin Gallery.
 
-**Example: Use the Custom Header plugin to add a Twitter feed to your sidebar**
-
-You can add a Twitter feed for your journal, press, or organization to the sidebar of OJS or OMP.
-
-First, you need to enable and configure the Custom Header plugin, which allows you to add JavaScript code to a custom block:
-
-1. Go to Website Settings > Plugins and ensure the Custom Header plugin is installed and enabled
-2. Click the blue arrow next to the plugin name and click the **Settings** button that appears below
-3. Paste the following into the Header Content field:
-```html
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-```
-4. Click **OK** to save it
-
-Next, you need to create a custom block:
-
-1. Go to the Installed Plugins again and enable the Custom Block Manager plugin
-2. Click the blue arrow next to the plugin name and click **Manage Custom Blocks** below it
-3. Click **Add Block**
-4. Give the block a name, such as “Twitter”
-5. Above the **Content** field, click the **Source Code** button
-6. In the pop-up box that appears, paste the following content - except use your own Twitter account link and name:
-```html
-<a class="twitter-timeline" href="https://twitter.com/asmecher?ref_src=twsrc%5Etfw">Tweets by asmecher</a>
-```
-7. Additional custom timeline parameters can be added if you want, e.g:
-````html
-<a class="twitter-timeline" "data-tweet-limit="3" ...
-````
-8. Click **Save**
-
-Finally, you have to add the custom block you just created to your sidebar.
-
-1. Go to Website Settings > Appearance and scroll down to **Sidebar Management**
-2. You should see the Twitter block under **Unselected**
-3. Drag and drop the block over to **Sidebar**. You can drag and drop all your blocks in the desired order.
-
-Another option is to use the [Twitter sidebar plugin](https://github.com/RBoelter/ojs3-twitter-sidebar). This plugin makes Twitter block for the sidebar.
-
 #### Disqus plugin
 
 The [Disqus plugin](https://github.com/ajnyga/disqus) integrates with [Disqus](https://disqus.com) and allows users to add comments to the article pages.
@@ -402,8 +363,6 @@ This plugin creates a “most read articles” section in the journal’s sideba
 ![Most read of the week list with article titles and links displayed in a journal sidebar.](./assets/learning-ojs-settings-plugin-most-read.png)
 
 This is a 3rd party plugin and the file will need to be [downloaded from GitHub](https://github.com/ajnyga/mostRead).
-
-*This plugin is compatible with OJS version 3.1.2 or higher. It is currently being adapted for OJS 3.2.*
 
 Once you’ve downloaded the file from GitHub, upload it to your Journal and enable it. This will create a “Most Read” block that you can add to the sidebar of your journal.
 
