@@ -32,7 +32,7 @@ Once you’ve purchased your domain, ask your site administrator to map the doma
 
 ### Articulate your journal’s aim, scope, and disciplinary focus
 
-This information is usually added to the [About the Journal](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) section in the Journal Settings in OJS and might include information about the overall concept for the journal, the topics / fields that are covered in terms of both breadth and focus, intended audiences, and a history of the journal.
+This information is usually added when initially setting up a journal in an OJS instance [https://docs.pkp.sfu.ca/learning-ojs/site-admin/en/#hosted-journals] and might include information about the overall concept for the journal, the topics / fields that are covered in terms of both breadth and focus, intended audiences, and a history of the journal.
 
 ### Determine the journal’s target audience
 
@@ -41,7 +41,7 @@ Consider the target demographic and geographic distribution of each group, your 
 
 ### Select languages for the journal site and submissions
 
-You can [configure the journal in multiple languages](​​https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#languages) for the front end and back end, forms, and submission process. 
+You can [configure the journal in multiple languages](​​https://docs.pkp.sfu.ca/learning-ojs/site-admin/en/#languages) for the front end and back end, forms, and submission process. 
 
 See our [Using PKP Software in Multiple Languages Guide](https://docs.pkp.sfu.ca/multiling-guide/en/) for complete details on how multilingualism works in OJS.
 
