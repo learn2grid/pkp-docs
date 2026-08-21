@@ -116,6 +116,6 @@ There are many alternate themes or “swatches” of the Bootstrap theme that ke
 
 ## Note About Accessibility
 
-PKP is committed to ensuring our platforms are as accessible as possible for all users. To achieve this, the OJS Default Theme was developed by PKP for OJS 3.3 and higher, and was audited for accessibility barriers. Please read the [Default Theme accessibility statement](/accessibility-statement/en/) for more information.
+PKP is committed to ensuring our platforms are as accessible as possible for all users. To achieve this, the OJS Default Theme, developed by PKP for OJS 3.5 and higher, was audited for accessibility barriers. Please read the [General Accessibility Statement]([/accessibility-statement/en/](https://pkp.sfu.ca/general-accessibility-statement)) for more information.
 
 Our other themes contain accessible features, but have not been audited and may not be fully accessible at this time.
